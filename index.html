@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Leaderboard</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">        
+        <a class="navbar-brand" href="#"><!-- Logo --></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">TEAMS</a>
+            </li>
+            <li class="nav-item active">              
+                <a class="nav-link" href="#">LEADERBOARD<span class="sr-only">(current)</span></a>
+            </li>            
+            </ul>
+        </div>
+    </nav>
+    <!-- Leaderboard -->
+    <div class="container main-section">
+        <div class="row">
+            <div class="col-lg-12 hedding pb-2">
+                <h1> Table Row Toggel </h1>
+            </div>
+            <div class="col-lg-12">
+                <table class="table table-bordered" style="border-collapse:collapse;">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Date</th>
+                            <th>Description</th>
+                            <th>Credit</th>
+                            <th>Debit</th>
+                            <th>Balance</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr colspan="6" data-toggle="collapse" data-target="#demo1" class="accordion-toggle">
+                            <td>1</td>
+                            <td>12 Jan 2018</td>
+                            <td>Good</td>
+                            <td>$150.00</td>
+                            <td> - </td>
+                            <td>$150.00</td>
+                        </tr>
+                        <tr class="p">
+                            <td colspan="6" class="hiddenRow">
+                                <div class="accordian-body collapse p-3" id="demo1">
+                                    <p>No : <span>1</span></p>
+                                    <p>Date : <span>12 Jan 2018</span> </p>
+                                    <p>Description : <span>Good</span> </p>
+                                    <p>Credit : <span>$150.00</span> </p>
+                                    <p>Debit : <span></span></p>
+                                    <p>Balance : <span>$150.00</span></p>
+                                </div> 
+                            </td> 
+                        </tr>
+                        <tr data-toggle="collapse" data-target="#demo2" class="accordion-toggle">
+                            <td>2</td>
+                            <td>12 Jan 2018</td>
+                            <td>Good</td>
+                            <td>$11.00</td>
+                            <td> - </td>
+                            <td>$161.00</td>
+                        </tr>
+                        <tr>
+                            <td colspan="6" class="hiddenRow">
+                                <div id="demo2" class="accordian-body collapse p-3">
+                                    <p>No : <span>2</span></p>
+                                    <p>Date : <span>12 Jan 2018</span> </p>
+                                    <p>Description : <span>Good</span> </p>
+                                    <p>Credit : <span>$150.00</span> </p>
+                                    <p>Debit : <span></span></p>
+                                    <p>Balance : <span>$150.00</span></p>
+                                </div>
+                            </td>
+                        </tr>
+                        
+                        <tr data-toggle="collapse" data-target="#demo3" class="accordion-toggle">
+                            <td>3</td>
+                            <td>12 Jan 2018</td>
+                            <td>Good</td>
+                            <td>$500.00</td>
+                            <td> - </td>
+                            <td>$661.00</td>
+                        </tr>
+                        <tr>
+                            <td colspan="6"  class="hiddenRow">
+                                <div id="demo3" class="accordian-body collapse p-3">
+                                    <p>No : <span>3</span></p>
+                                    <p>Date : <span>12 Jan 2018</span> </p>
+                                    <p>Description : <span>Good</span> </p>
+                                    <p>Credit : <span>$150.00</span> </p>
+                                    <p>Debit : <span></span></p>
+                                    <p>Balance : <span>$150.00</span></p>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr data-toggle="collapse" data-target="#demo4" class="accordion-toggle">
+                            <td>4</td>
+                            <td>12 Jan 2018</td>
+                            <td>Good</td>
+                            <td>$500.00</td>
+                            <td> - </td>
+                            <td>$661.00</td>
+                        </tr>
+                        <tr>
+                            <td colspan="6"  class="hiddenRow">
+                                <div id="demo4" class="accordian-body collapse p-3">
+                                    <p>No : <span>4</span></p>
+                                    <p>Date : <span>12 Jan 2018</span> </p>
+                                    <p>Description : <span>Good</span> </p>
+                                    <p>Credit : <span>$150.00</span> </p>
+                                    <p>Debit : <span></span></p>
+                                    <p>Balance : <span>$150.00</span></p>
+                                </div>
+                            </td>
+                        </tr>
+    
+                        <tr data-toggle="collapse" data-target="#demo5" class="accordion-toggle">
+                            <td>5</td>
+                            <td>12 Jan 2018</td>
+                            <td>Good</td>
+                            <td>$500.00</td>
+                            <td> - </td>
+                            <td>$661.00</td>
+                        </tr>
+                        <tr>
+                            <td colspan="6"  class="hiddenRow">
+                                <div id="demo5" class="accordian-body collapse p-3">
+                                    <p>No : <span>5</span></p>
+                                    <p>Date : <span>12 Jan 2018</span> </p>
+                                    <p>Description : <span>Good</span> </p>
+                                    <p>Credit : <span>$150.00</span> </p>
+                                    <p>Debit : <span></span></p>
+                                    <p>Balance : <span>$150.00</span></p>
+                                </div>
+                            </td>
+                        </tr>		
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery, Popper.js, and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
