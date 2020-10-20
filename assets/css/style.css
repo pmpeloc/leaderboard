@@ -31,7 +31,7 @@ body {
 }
 .hiddenRow {
     padding: 0 4px !important;
-    background-color: transparent;
+    background-color: #e9e9e9;
     font-size: 13px;
 }
 .accordian-body span{
