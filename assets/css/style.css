@@ -9,6 +9,38 @@ body {
     background-color: #000000;
 }
 /** ESTILOS LEADERBOARD **/
+.bg-table-head {
+    background-image: url("../images/bg-table-header.jpg");
+    background-repeat: repeat;
+}
+thead {
+    color: #fff;
+}
+.titulo-tabla {
+    font-size: 1.7rem !important;
+    font-family: fantasy;
+    font-weight: normal;
+    background: -webkit-linear-gradient(#fff, #b5b5b5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+    padding-left: 4% !important;
+}
+.titles-head {
+    font-size: smaller;
+    font-weight: 600;
+}
+.time-bg {
+    background-image: url("../images/time-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.score-bg {
+    background-image: url("../images/score-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .fila {    
     border-bottom: 30px solid transparent !important;
 }
@@ -27,21 +59,27 @@ body {
 	font-size:25px;
 }
 .main-section{
-	margin-top: 60px;
+	margin-top: 100px;
 }
 .hiddenRow {
     padding: 0 4px !important;
-    background-color: #e9e9e9;
+    /* background-color: #e9e9e9; */
+    background-image: url("../images/detail-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: 13px;
 }
 .accordian-body span{
 	color:#a2a2a2 !important;
 }
 .img-user {
-    width: 45px;
+    width: 52px;
 }
 .bg-gray {
     background-color: #dbdcd7;
+}
+.table td, .table th {
+    border-top: none;
 }
 /** ESTILOS LISTADO OCULTO**/
 .tabla {
@@ -55,6 +93,9 @@ body {
 }
 .w-4 {
     width: 4%;
+}
+.w-5 {
+    width: 5%;
 }
 .w-6 {
     width: 6%;
