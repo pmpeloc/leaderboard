@@ -1,13 +1,26 @@
+/** ESTILOS GENERALES **/
+body {
+    background-image: url("../images/bg-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /** ESTILOS NAVBAR **/
 .bg-black {
     background-color: #000000;
 }
 /** ESTILOS LEADERBOARD **/
+.fila {    
+    border-bottom: 30px solid transparent !important;
+}
+.primer-fila {
+    border-top: 30px solid transparent !important;
+    background-color: #fff;
+}
 .table tr {
     cursor: pointer;
 }
 .table{
-	background-color: #fff !important;
+	background-color: transparent !important;
 }
 .hedding h1{
 	color:#fff;
@@ -18,9 +31,76 @@
 }
 .hiddenRow {
     padding: 0 4px !important;
-    background-color: #eeeeee;
+    background-color: transparent;
     font-size: 13px;
 }
 .accordian-body span{
 	color:#a2a2a2 !important;
+}
+.img-user {
+    width: 45px;
+}
+.bg-gray {
+    background-color: #dbdcd7;
+}
+/** ESTILOS LISTADO OCULTO**/
+.tabla {
+    display: table;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+.columna {
+    display: table-cell;
+    vertical-align: middle;
+}
+.w-4 {
+    width: 4%;
+}
+.w-6 {
+    width: 6%;
+}
+.w-8 {
+    width: 8%;
+}
+.w-12 {
+    width: 12%;
+}
+.w-40 {
+    width: 40%;
+}
+.progress-uno {
+    background-color: #9b9b9b;
+    height: 0.7rem;
+}
+.progress-dos {
+    background-color: transparent;
+    height: 0.2rem;
+}
+.sub-titulo {
+    color: #2e6db4;
+}
+.circulo {
+    width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 100%;
+	background: #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.circulo-dos {
+    width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 100%;
+    background-color: #828282;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.text-circulo {
+    color: white;
+	font-size: 0.6rem;
+    font-weight: bold;    
 }

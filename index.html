@@ -34,121 +34,983 @@
     <div class="container main-section">
         <div class="row">
             <div class="col-lg-12 hedding pb-2">
-                <h1> Table Row Toggel </h1>
+                <h1> POST APOCALYPTIC HIGHWAY </h1>
             </div>
             <div class="col-lg-12">
-                <table class="table table-bordered" style="border-collapse:collapse;">
+                <table class="table " style="border-collapse:collapse;">
                     <thead>
                         <tr>
-                            <th>No.</th>
-                            <th>Date</th>
-                            <th>Description</th>
-                            <th>Credit</th>
-                            <th>Debit</th>
-                            <th>Balance</th>
+                            <th>Id</th>
+                            <th>Image</th>
+                            <th>Name</th>
+                            <th>Bib</th>
+                            <th>Age</th>
+                            <th>Gender</th>
+                            <th>Time</th>
+                            <th>Score</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr colspan="6" data-toggle="collapse" data-target="#demo1" class="accordion-toggle">
+                        <tr data-toggle="collapse" data-target="#demo1" class="accordion-toggle primer-fila">
                             <td>1</td>
-                            <td>12 Jan 2018</td>
-                            <td>Good</td>
-                            <td>$150.00</td>
-                            <td> - </td>
-                            <td>$150.00</td>
-                        </tr>
-                        <tr class="p">
-                            <td colspan="6" class="hiddenRow">
+                            <td class="p-0 bg-gray"><img src="assets/images/user-1.png" class="img-user" alt="1"></td>
+                            <td>John Smith</td>
+                            <td>1085</td>
+                            <td>27</td>
+                            <td>M</td>
+                            <td>17:42</td>
+                            <td>41</td>
+                        </tr>                        
+                        <tr class="fila">
+                            <td colspan="8" class="hiddenRow">
                                 <div class="accordian-body collapse p-3" id="demo1">
-                                    <p>No : <span>1</span></p>
-                                    <p>Date : <span>12 Jan 2018</span> </p>
-                                    <p>Description : <span>Good</span> </p>
-                                    <p>Credit : <span>$150.00</span> </p>
-                                    <p>Debit : <span></span></p>
-                                    <p>Balance : <span>$150.00</span></p>
+                                    <section class="w-100"> <!-- PROGRESS BARS -->
+                                        <div class="tabla w-75">
+                                            <div class="columna w-25 text-uppercase">strength</div>
+                                            <div class="columna w-12">12</div>
+                                            <div class="columna">
+                                                <div class="progress progress-uno">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                                
+                                            </div>                                            
+                                        </div> 
+                                        <div class="tabla w-75">
+                                            <div class="columna w-25 text-uppercase">endurace</div>
+                                            <div class="columna w-12">8</div>
+                                            <div class="columna">
+                                                <div class="progress progress-uno">
+                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                                
+                                            </div>                                            
+                                        </div>
+                                        <div class="tabla w-75">
+                                            <div class="columna w-25 text-uppercase">dexterity</div>
+                                            <div class="columna w-12">9</div>
+                                            <div class="columna">
+                                                <div class="progress progress-uno">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                                
+                                            </div>                                            
+                                        </div>
+                                        <div class="tabla w-75">
+                                            <div class="columna w-25 text-uppercase">decision making</div>
+                                            <div class="columna w-12">4</div>
+                                            <div class="columna">
+                                                <div class="progress progress-uno">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                                
+                                            </div>                                            
+                                        </div>                                                                                                                       
+                                    </section>
+                                    <section> <!-- POST APOCALYPTIC HIGHWAY -->
+                                        <h5 class="sub-titulo mt-5">Post Apocalyptic Highway</h5>
+                                        <div class="tabla w-100"> <!-- INICIO FILA 1 -->
+                                            <div class="columna w-6">
+                                                <div class="circulo">
+                                                    <p class="text-circulo my-auto">1</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-40">Hill Climb</div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">P</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">R</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">W</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-8">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">F</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-12">
+                                                <div class="progress progress-dos my-1 d-none">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>                                                                                                                                                        
+                                                </div>     
+                                                <div class="progress progress-dos my-1 d-none">
+                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                         
+                                            </div>
+                                            <div class="columna pl-4">00:17:35</div>
+                                            <div class="columna w-8">5</div>
+                                        </div> <!-- FIN FILA 1 -->
+                                        <div class="tabla w-100"> <!-- INICIO FILA 2 -->
+                                            <div class="columna w-6">
+                                                <div class="circulo">
+                                                    <p class="text-circulo my-auto">2</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-40">Run For The Hills</div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">P</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">R</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos d-none">
+                                                    <p class="text-circulo my-auto">W</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-8">
+                                                <div class="circulo-dos d-none">
+                                                    <p class="text-circulo my-auto">F</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-12">
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>                                                                                                                                                        
+                                                </div>     
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                         
+                                            </div>
+                                            <div class="columna pl-4">00:17:35</div>
+                                            <div class="columna w-8">6</div>
+                                        </div> <!-- FIN FILA 2 -->
+                                    </section>
+                                    <section> <!-- COSTA RICAN CAVES -->
+                                        <h5 class="sub-titulo mt-5">Costa Rican Caves</h5>
+                                        <div class="tabla w-100"> <!-- INICIO FILA 3 -->
+                                            <div class="columna w-6">
+                                                <div class="circulo">
+                                                    <p class="text-circulo my-auto">3</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-40">Crevasse Crossing</div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">P</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">R</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">W</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-8">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">F</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-12">
+                                                <div class="progress progress-dos my-1 d-none">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>                                                                                                                                                        
+                                                </div>     
+                                                <div class="progress progress-dos my-1 d-none">
+                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                         
+                                            </div>
+                                            <div class="columna pl-4">00:17:35</div>
+                                            <div class="columna w-8">5</div>
+                                        </div> <!-- FIN FILA 3 -->
+                                    </section>
                                 </div> 
                             </td> 
                         </tr>
-                        <tr data-toggle="collapse" data-target="#demo2" class="accordion-toggle">
+                        <tr data-toggle="collapse" data-target="#demo2" class="accordion-toggle bg-white">
                             <td>2</td>
-                            <td>12 Jan 2018</td>
-                            <td>Good</td>
-                            <td>$11.00</td>
-                            <td> - </td>
-                            <td>$161.00</td>
+                            <td class="p-0 bg-gray"><img src="assets/images/user-2.png" class="img-user" alt="2"></td>
+                            <td>Patrick Johnson</td>
+                            <td>1085</td>
+                            <td>27</td>
+                            <td>M</td>
+                            <td>17:45</td>
+                            <td>43</td>
                         </tr>
-                        <tr>
-                            <td colspan="6" class="hiddenRow">
+                        <tr class="fila">
+                            <td colspan="8" class="hiddenRow">
                                 <div id="demo2" class="accordian-body collapse p-3">
-                                    <p>No : <span>2</span></p>
-                                    <p>Date : <span>12 Jan 2018</span> </p>
-                                    <p>Description : <span>Good</span> </p>
-                                    <p>Credit : <span>$150.00</span> </p>
-                                    <p>Debit : <span></span></p>
-                                    <p>Balance : <span>$150.00</span></p>
+                                    <section class="w-100"> <!-- PROGRESS BARS -->
+                                        <div class="tabla w-75">
+                                            <div class="columna w-25 text-uppercase">strength</div>
+                                            <div class="columna w-12">12</div>
+                                            <div class="columna">
+                                                <div class="progress progress-uno">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                                
+                                            </div>                                            
+                                        </div> 
+                                        <div class="tabla w-75">
+                                            <div class="columna w-25 text-uppercase">endurace</div>
+                                            <div class="columna w-12">8</div>
+                                            <div class="columna">
+                                                <div class="progress progress-uno">
+                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                                
+                                            </div>                                            
+                                        </div>
+                                        <div class="tabla w-75">
+                                            <div class="columna w-25 text-uppercase">dexterity</div>
+                                            <div class="columna w-12">9</div>
+                                            <div class="columna">
+                                                <div class="progress progress-uno">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                                
+                                            </div>                                            
+                                        </div>
+                                        <div class="tabla w-75">
+                                            <div class="columna w-25 text-uppercase">decision making</div>
+                                            <div class="columna w-12">4</div>
+                                            <div class="columna">
+                                                <div class="progress progress-uno">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                                
+                                            </div>                                            
+                                        </div>                                                                                                                       
+                                    </section>
+                                    <section> <!-- POST APOCALYPTIC HIGHWAY -->
+                                        <h5 class="sub-titulo mt-5">Post Apocalyptic Highway</h5>
+                                        <div class="tabla w-100"> <!-- INICIO FILA 1 -->
+                                            <div class="columna w-6">
+                                                <div class="circulo">
+                                                    <p class="text-circulo my-auto">1</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-40">Hill Climb</div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">P</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">R</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">W</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-8">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">F</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-12">
+                                                <div class="progress progress-dos my-1 d-none">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>                                                                                                                                                        
+                                                </div>     
+                                                <div class="progress progress-dos my-1 d-none">
+                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                         
+                                            </div>
+                                            <div class="columna pl-4">00:17:35</div>
+                                            <div class="columna w-8">5</div>
+                                        </div> <!-- FIN FILA 1 -->
+                                        <div class="tabla w-100"> <!-- INICIO FILA 2 -->
+                                            <div class="columna w-6">
+                                                <div class="circulo">
+                                                    <p class="text-circulo my-auto">2</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-40">Run For The Hills</div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">P</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">R</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos d-none">
+                                                    <p class="text-circulo my-auto">W</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-8">
+                                                <div class="circulo-dos d-none">
+                                                    <p class="text-circulo my-auto">F</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-12">
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>                                                                                                                                                        
+                                                </div>     
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                         
+                                            </div>
+                                            <div class="columna pl-4">00:17:35</div>
+                                            <div class="columna w-8">6</div>
+                                        </div> <!-- FIN FILA 2 -->
+                                    </section>
+                                    <section> <!-- COSTA RICAN CAVES -->
+                                        <h5 class="sub-titulo mt-5">Costa Rican Caves</h5>
+                                        <div class="tabla w-100"> <!-- INICIO FILA 3 -->
+                                            <div class="columna w-6">
+                                                <div class="circulo">
+                                                    <p class="text-circulo my-auto">3</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-40">Crevasse Crossing</div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">P</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">R</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">W</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-8">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">F</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-12">
+                                                <div class="progress progress-dos my-1 d-none">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>                                                                                                                                                        
+                                                </div>     
+                                                <div class="progress progress-dos my-1 d-none">
+                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                         
+                                            </div>
+                                            <div class="columna pl-4">00:17:35</div>
+                                            <div class="columna w-8">5</div>
+                                        </div> <!-- FIN FILA 3 -->
+                                    </section>
                                 </div>
                             </td>
                         </tr>
                         
-                        <tr data-toggle="collapse" data-target="#demo3" class="accordion-toggle">
+                        <tr data-toggle="collapse" data-target="#demo3" class="accordion-toggle bg-white">
                             <td>3</td>
-                            <td>12 Jan 2018</td>
-                            <td>Good</td>
-                            <td>$500.00</td>
-                            <td> - </td>
-                            <td>$661.00</td>
+                            <td class="p-0 bg-gray"><img src="assets/images/user-3.png" class="img-user" alt="3"></td>
+                            <td>Michael Monks</td>
+                            <td>1085</td>
+                            <td>27</td>
+                            <td>M</td>
+                            <td>17:45</td>
+                            <td>43</td>
                         </tr>
-                        <tr>
-                            <td colspan="6"  class="hiddenRow">
+                        <tr class="fila">
+                            <td colspan="8"  class="hiddenRow">
                                 <div id="demo3" class="accordian-body collapse p-3">
-                                    <p>No : <span>3</span></p>
-                                    <p>Date : <span>12 Jan 2018</span> </p>
-                                    <p>Description : <span>Good</span> </p>
-                                    <p>Credit : <span>$150.00</span> </p>
-                                    <p>Debit : <span></span></p>
-                                    <p>Balance : <span>$150.00</span></p>
+                                    <section class="w-100"> <!-- PROGRESS BARS -->
+                                        <div class="tabla w-75">
+                                            <div class="columna w-25 text-uppercase">strength</div>
+                                            <div class="columna w-12">12</div>
+                                            <div class="columna">
+                                                <div class="progress progress-uno">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                                
+                                            </div>                                            
+                                        </div> 
+                                        <div class="tabla w-75">
+                                            <div class="columna w-25 text-uppercase">endurace</div>
+                                            <div class="columna w-12">8</div>
+                                            <div class="columna">
+                                                <div class="progress progress-uno">
+                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                                
+                                            </div>                                            
+                                        </div>
+                                        <div class="tabla w-75">
+                                            <div class="columna w-25 text-uppercase">dexterity</div>
+                                            <div class="columna w-12">9</div>
+                                            <div class="columna">
+                                                <div class="progress progress-uno">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                                
+                                            </div>                                            
+                                        </div>
+                                        <div class="tabla w-75">
+                                            <div class="columna w-25 text-uppercase">decision making</div>
+                                            <div class="columna w-12">4</div>
+                                            <div class="columna">
+                                                <div class="progress progress-uno">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                                
+                                            </div>                                            
+                                        </div>                                                                                                                       
+                                    </section>
+                                    <section> <!-- POST APOCALYPTIC HIGHWAY -->
+                                        <h5 class="sub-titulo mt-5">Post Apocalyptic Highway</h5>
+                                        <div class="tabla w-100"> <!-- INICIO FILA 1 -->
+                                            <div class="columna w-6">
+                                                <div class="circulo">
+                                                    <p class="text-circulo my-auto">1</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-40">Hill Climb</div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">P</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">R</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">W</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-8">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">F</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-12">
+                                                <div class="progress progress-dos my-1 d-none">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>                                                                                                                                                        
+                                                </div>     
+                                                <div class="progress progress-dos my-1 d-none">
+                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                         
+                                            </div>
+                                            <div class="columna pl-4">00:17:35</div>
+                                            <div class="columna w-8">5</div>
+                                        </div> <!-- FIN FILA 1 -->
+                                        <div class="tabla w-100"> <!-- INICIO FILA 2 -->
+                                            <div class="columna w-6">
+                                                <div class="circulo">
+                                                    <p class="text-circulo my-auto">2</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-40">Run For The Hills</div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">P</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">R</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos d-none">
+                                                    <p class="text-circulo my-auto">W</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-8">
+                                                <div class="circulo-dos d-none">
+                                                    <p class="text-circulo my-auto">F</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-12">
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>                                                                                                                                                        
+                                                </div>     
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                         
+                                            </div>
+                                            <div class="columna pl-4">00:17:35</div>
+                                            <div class="columna w-8">6</div>
+                                        </div> <!-- FIN FILA 2 -->
+                                    </section>
+                                    <section> <!-- COSTA RICAN CAVES -->
+                                        <h5 class="sub-titulo mt-5">Costa Rican Caves</h5>
+                                        <div class="tabla w-100"> <!-- INICIO FILA 3 -->
+                                            <div class="columna w-6">
+                                                <div class="circulo">
+                                                    <p class="text-circulo my-auto">3</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-40">Crevasse Crossing</div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">P</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">R</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">W</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-8">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">F</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-12">
+                                                <div class="progress progress-dos my-1 d-none">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>                                                                                                                                                        
+                                                </div>     
+                                                <div class="progress progress-dos my-1 d-none">
+                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                         
+                                            </div>
+                                            <div class="columna pl-4">00:17:35</div>
+                                            <div class="columna w-8">5</div>
+                                        </div> <!-- FIN FILA 3 -->
+                                    </section>
                                 </div>
                             </td>
                         </tr>
     
-                        <tr data-toggle="collapse" data-target="#demo4" class="accordion-toggle">
+                        <tr data-toggle="collapse" data-target="#demo4" class="accordion-toggle bg-white">
                             <td>4</td>
-                            <td>12 Jan 2018</td>
-                            <td>Good</td>
-                            <td>$500.00</td>
-                            <td> - </td>
-                            <td>$661.00</td>
+                            <td class="p-0 bg-gray"><img src="assets/images/user-4.png" class="img-user" alt="4"></td>
+                            <td>Hakim Callender</td>
+                            <td>1085</td>
+                            <td>27</td>
+                            <td>M</td>
+                            <td>17:45</td>
+                            <td>43</td>
                         </tr>
-                        <tr>
-                            <td colspan="6"  class="hiddenRow">
+                        <tr class="fila">
+                            <td colspan="8"  class="hiddenRow">
                                 <div id="demo4" class="accordian-body collapse p-3">
-                                    <p>No : <span>4</span></p>
-                                    <p>Date : <span>12 Jan 2018</span> </p>
-                                    <p>Description : <span>Good</span> </p>
-                                    <p>Credit : <span>$150.00</span> </p>
-                                    <p>Debit : <span></span></p>
-                                    <p>Balance : <span>$150.00</span></p>
+                                    <section class="w-100"> <!-- PROGRESS BARS -->
+                                        <div class="tabla w-75">
+                                            <div class="columna w-25 text-uppercase">strength</div>
+                                            <div class="columna w-12">12</div>
+                                            <div class="columna">
+                                                <div class="progress progress-uno">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                                
+                                            </div>                                            
+                                        </div> 
+                                        <div class="tabla w-75">
+                                            <div class="columna w-25 text-uppercase">endurace</div>
+                                            <div class="columna w-12">8</div>
+                                            <div class="columna">
+                                                <div class="progress progress-uno">
+                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                                
+                                            </div>                                            
+                                        </div>
+                                        <div class="tabla w-75">
+                                            <div class="columna w-25 text-uppercase">dexterity</div>
+                                            <div class="columna w-12">9</div>
+                                            <div class="columna">
+                                                <div class="progress progress-uno">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                                
+                                            </div>                                            
+                                        </div>
+                                        <div class="tabla w-75">
+                                            <div class="columna w-25 text-uppercase">decision making</div>
+                                            <div class="columna w-12">4</div>
+                                            <div class="columna">
+                                                <div class="progress progress-uno">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                                
+                                            </div>                                            
+                                        </div>                                                                                                                       
+                                    </section>
+                                    <section> <!-- POST APOCALYPTIC HIGHWAY -->
+                                        <h5 class="sub-titulo mt-5">Post Apocalyptic Highway</h5>
+                                        <div class="tabla w-100"> <!-- INICIO FILA 1 -->
+                                            <div class="columna w-6">
+                                                <div class="circulo">
+                                                    <p class="text-circulo my-auto">1</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-40">Hill Climb</div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">P</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">R</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">W</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-8">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">F</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-12">
+                                                <div class="progress progress-dos my-1 d-none">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>                                                                                                                                                        
+                                                </div>     
+                                                <div class="progress progress-dos my-1 d-none">
+                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                         
+                                            </div>
+                                            <div class="columna pl-4">00:17:35</div>
+                                            <div class="columna w-8">5</div>
+                                        </div> <!-- FIN FILA 1 -->
+                                        <div class="tabla w-100"> <!-- INICIO FILA 2 -->
+                                            <div class="columna w-6">
+                                                <div class="circulo">
+                                                    <p class="text-circulo my-auto">2</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-40">Run For The Hills</div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">P</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">R</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos d-none">
+                                                    <p class="text-circulo my-auto">W</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-8">
+                                                <div class="circulo-dos d-none">
+                                                    <p class="text-circulo my-auto">F</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-12">
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>                                                                                                                                                        
+                                                </div>     
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                         
+                                            </div>
+                                            <div class="columna pl-4">00:17:35</div>
+                                            <div class="columna w-8">6</div>
+                                        </div> <!-- FIN FILA 2 -->
+                                    </section>
+                                    <section> <!-- COSTA RICAN CAVES -->
+                                        <h5 class="sub-titulo mt-5">Costa Rican Caves</h5>
+                                        <div class="tabla w-100"> <!-- INICIO FILA 3 -->
+                                            <div class="columna w-6">
+                                                <div class="circulo">
+                                                    <p class="text-circulo my-auto">3</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-40">Crevasse Crossing</div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">P</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">R</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">W</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-8">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">F</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-12">
+                                                <div class="progress progress-dos my-1 d-none">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>                                                                                                                                                        
+                                                </div>     
+                                                <div class="progress progress-dos my-1 d-none">
+                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                         
+                                            </div>
+                                            <div class="columna pl-4">00:17:35</div>
+                                            <div class="columna w-8">5</div>
+                                        </div> <!-- FIN FILA 3 -->
+                                    </section>
                                 </div>
                             </td>
                         </tr>
     
-                        <tr data-toggle="collapse" data-target="#demo5" class="accordion-toggle">
+                        <tr data-toggle="collapse" data-target="#demo5" class="accordion-toggle bg-white">
                             <td>5</td>
-                            <td>12 Jan 2018</td>
-                            <td>Good</td>
-                            <td>$500.00</td>
-                            <td> - </td>
-                            <td>$661.00</td>
+                            <td class="p-0 bg-gray"><img src="assets/images/user-5.png" class="img-user" alt="5"></td>
+                            <td>Everton Lawrence</td>
+                            <td>1085</td>
+                            <td>27</td>
+                            <td>M</td>
+                            <td>17:45</td>
+                            <td>43</td>
                         </tr>
-                        <tr>
-                            <td colspan="6"  class="hiddenRow">
+                        <tr class="fila">
+                            <td colspan="8"  class="hiddenRow">
                                 <div id="demo5" class="accordian-body collapse p-3">
-                                    <p>No : <span>5</span></p>
-                                    <p>Date : <span>12 Jan 2018</span> </p>
-                                    <p>Description : <span>Good</span> </p>
-                                    <p>Credit : <span>$150.00</span> </p>
-                                    <p>Debit : <span></span></p>
-                                    <p>Balance : <span>$150.00</span></p>
+                                    <section class="w-100"> <!-- PROGRESS BARS -->
+                                        <div class="tabla w-75">
+                                            <div class="columna w-25 text-uppercase">strength</div>
+                                            <div class="columna w-12">12</div>
+                                            <div class="columna">
+                                                <div class="progress progress-uno">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                                
+                                            </div>                                            
+                                        </div> 
+                                        <div class="tabla w-75">
+                                            <div class="columna w-25 text-uppercase">endurace</div>
+                                            <div class="columna w-12">8</div>
+                                            <div class="columna">
+                                                <div class="progress progress-uno">
+                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                                
+                                            </div>                                            
+                                        </div>
+                                        <div class="tabla w-75">
+                                            <div class="columna w-25 text-uppercase">dexterity</div>
+                                            <div class="columna w-12">9</div>
+                                            <div class="columna">
+                                                <div class="progress progress-uno">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                                
+                                            </div>                                            
+                                        </div>
+                                        <div class="tabla w-75">
+                                            <div class="columna w-25 text-uppercase">decision making</div>
+                                            <div class="columna w-12">4</div>
+                                            <div class="columna">
+                                                <div class="progress progress-uno">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                                
+                                            </div>                                            
+                                        </div>                                                                                                                       
+                                    </section>
+                                    <section> <!-- POST APOCALYPTIC HIGHWAY -->
+                                        <h5 class="sub-titulo mt-5">Post Apocalyptic Highway</h5>
+                                        <div class="tabla w-100"> <!-- INICIO FILA 1 -->
+                                            <div class="columna w-6">
+                                                <div class="circulo">
+                                                    <p class="text-circulo my-auto">1</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-40">Hill Climb</div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">P</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">R</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">W</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-8">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">F</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-12">
+                                                <div class="progress progress-dos my-1 d-none">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>                                                                                                                                                        
+                                                </div>     
+                                                <div class="progress progress-dos my-1 d-none">
+                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                         
+                                            </div>
+                                            <div class="columna pl-4">00:17:35</div>
+                                            <div class="columna w-8">5</div>
+                                        </div> <!-- FIN FILA 1 -->
+                                        <div class="tabla w-100"> <!-- INICIO FILA 2 -->
+                                            <div class="columna w-6">
+                                                <div class="circulo">
+                                                    <p class="text-circulo my-auto">2</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-40">Run For The Hills</div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">P</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">R</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos d-none">
+                                                    <p class="text-circulo my-auto">W</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-8">
+                                                <div class="circulo-dos d-none">
+                                                    <p class="text-circulo my-auto">F</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-12">
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>                                                                                                                                                        
+                                                </div>     
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                         
+                                            </div>
+                                            <div class="columna pl-4">00:17:35</div>
+                                            <div class="columna w-8">6</div>
+                                        </div> <!-- FIN FILA 2 -->
+                                    </section>
+                                    <section> <!-- COSTA RICAN CAVES -->
+                                        <h5 class="sub-titulo mt-5">Costa Rican Caves</h5>
+                                        <div class="tabla w-100"> <!-- INICIO FILA 3 -->
+                                            <div class="columna w-6">
+                                                <div class="circulo">
+                                                    <p class="text-circulo my-auto">3</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-40">Crevasse Crossing</div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">P</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">R</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-4">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">W</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-8">
+                                                <div class="circulo-dos">
+                                                    <p class="text-circulo my-auto">F</p>
+                                                </div>
+                                            </div>
+                                            <div class="columna w-12">
+                                                <div class="progress progress-dos my-1 d-none">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>                                                                                                                                                        
+                                                </div>     
+                                                <div class="progress progress-dos my-1 d-none">
+                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress progress-dos my-1">
+                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>                                         
+                                            </div>
+                                            <div class="columna pl-4">00:17:35</div>
+                                            <div class="columna w-8">5</div>
+                                        </div> <!-- FIN FILA 3 -->
+                                    </section>
                                 </div>
                             </td>
                         </tr>		
